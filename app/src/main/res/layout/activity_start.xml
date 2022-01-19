@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/goscreen"
+    android:gravity="center"
+    tools:context=".start">
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="174dp"
+        android:layout_height="43dp"
+        android:background="@drawable/start_btn"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+
+        />
+
+</LinearLayout>

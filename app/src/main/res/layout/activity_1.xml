@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo"
+    android:background="#F3F4F9">
+
+
+    <TextView
+        android:fontFamily="@font/my_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="54dp"
+        android:text="Пройдите опрос"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        style="style.Ecu"/>
+
+    <TextView
+        android:fontFamily="@font/my_font"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="87dp"
+        android:textSize="19dp"
+        android:textColor="@color/normal"
+        android:gravity="center"
+        android:text="Мы сформируем вакансии, основанные на твоих предпочтениях"/>
+
+
+
+    <TextView
+        android:fontFamily="@font/my_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="237dp"
+        android:textSize="20dp"
+        android:textColor="#222222"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="В каком городе вы проживаете?"/>
+
+
+    <EditText
+        android:fontFamily="@font/my_font"
+        android:id="@+id/city"
+        android:hint="Введите город"
+        android:paddingLeft="16dp"
+        android:textSize="18dp"
+        android:background="@drawable/renctangle"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="281dp"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:textColor="@color/grey"
+        android:textColorHint="@color/grey"
+        />
+
+    <Button
+        android:fontFamily="@font/my_font"
+        android:id="@+id/next"
+        android:text="Далее"
+        android:textColor="#FFFFFF"
+        android:layout_width="174dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/nex"/>
+
+</FrameLayout>
