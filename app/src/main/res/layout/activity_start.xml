@@ -1,22 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/goscreen"
+    android:background="#F3F4F9"
     android:gravity="center"
     tools:context=".start">
+
+    <TextView
+        android:fontFamily="@font/my_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_gravity="bottom|center_horizontal"
+       android:layout_marginBottom="235dp"
+        android:text="Найди Работу Мечты"
+        android:textStyle="bold"
+        android:textColor="#222222"/>
+    <TextView
+        android:fontFamily="@font/my_font"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:textSize="19dp"
+        android:layout_gravity="bottom|center_horizontal"
+       android:layout_marginBottom="181dp"
+        android:text="Лучшие работодатели уже наверняка тебя ищут"
+        android:gravity="center"
+        android:textColor="@color/grey"/>
+    
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="272dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/bb"
+        />
+
+    <ImageView
+        android:layout_width="176dp"
+        android:layout_height="325dp"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/img_2"
+
+        />
+
+
+
+
 
     <Button
         android:id="@+id/start"
         android:layout_width="174dp"
+       android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="78dp"
         android:layout_height="43dp"
-        android:background="@drawable/start_btn"
-        android:layout_gravity="bottom"
+        android:background="@drawable/nex"
+        android:text="Найти работу"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/my_font"
+        android:textSize="18dp"
+
+
         android:layout_marginTop="35dp"
-        android:textStyle="bold"
+
 
         />
 
-</LinearLayout>
+</FrameLayout>

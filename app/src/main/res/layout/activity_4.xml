@@ -26,7 +26,8 @@
         android:layout_gravity="top|center"
         android:layout_marginTop="87dp"
         android:textSize="19dp"
-        android:text="Завершите опрос"/>
+        android:text="Завершите опрос"
+        android:textColor="@color/grey"/>
 
     <TextView
         android:fontFamily="@font/my_font"

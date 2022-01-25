@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile"
+    android:background="#F3F4F9">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="75dp">
+    <Button
+        android:id="@+id/earlier"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginLeft="25dp"
+        android:background="@drawable/earlier"/>
+
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="139dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
+        android:text="Магнитагорск"
+        android:textStyle="normal"
+        android:textColor="@color/grey"
+        android:fontFamily="@font/my_font"/>
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
+        android:text="Магнитагорск"
+        android:textStyle="normal"
+        android:textColor="@color/grey"
+        android:fontFamily="@font/my_font"/>
+    <TextView
+        android:id="@+id/dateBith"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="317dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
+        android:text="Магнитагорск"
+        android:textStyle="normal"
+        android:textColor="@color/grey"
+        android:fontFamily="@font/my_font"/>
+    <TextView
+        android:id="@+id/nationality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="406dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
+        android:text="Магнитагорск"
+        android:textStyle="normal"
+        android:textColor="@color/grey"
+        android:fontFamily="@font/my_font"/>
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="495dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
+        android:text="Магнитагорск"
+        android:textStyle="normal"
+        android:textColor="@color/grey"
+        android:fontFamily="@font/my_font"/>
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="584dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
+        android:text="Магнитагорск"
+        android:textStyle="normal"
+        android:textColor="@color/grey"
+        android:fontFamily="@font/my_font"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:fontFamily="@font/my_font"
+        android:layout_width="72dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="43dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#222222"
+        android:textSize="19dp"
+        android:text="Резюме"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="109dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp"
+        android:text="Город проживания"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:fontFamily="@font/my_font"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="198dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp"
+        android:text="Полное имя"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:fontFamily="@font/my_font"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="287dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp"
+        android:text="Дата рождения"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:fontFamily="@font/my_font"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="376dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp"
+        android:text="Гражданство"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:fontFamily="@font/my_font"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="465dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp"
+        android:text="Электонная почта"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:fontFamily="@font/my_font"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="554dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp"
+        android:text="Номер телефона"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:fontFamily="@font/my_font"/>
+
+
+    </FrameLayout>
+
+</FrameLayout>

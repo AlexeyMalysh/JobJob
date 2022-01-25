@@ -19,7 +19,8 @@
             android:textColorHint="@color/grey"
             android:paddingLeft="16dp"
             android:textColor="@color/grey"
-            android:textSize="14dp" />
+            android:textSize="14dp"
+            android:inputType="textPersonName"/>
 
         <EditText
 
@@ -32,7 +33,9 @@
             android:paddingLeft="16dp"
             android:textColor="@color/grey"
             android:textColorHint="@color/grey"
-            android:textSize="14dp" />
+            android:textSize="14dp"
+            android:inputType="textPersonName"
+            />
 
         <EditText
             android:id="@+id/threename"
@@ -44,7 +47,8 @@
             android:hint="Отчество"
             android:paddingLeft="16dp"
             android:textColor="@color/grey"
-            android:textSize="14dp" />
+            android:textSize="14dp"
+            android:inputType="textPersonName"/>
 
     </LinearLayout>
 
